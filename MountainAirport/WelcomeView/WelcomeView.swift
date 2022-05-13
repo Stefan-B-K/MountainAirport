@@ -17,15 +17,6 @@ struct WelcomeView: View {
           Image("welcome-background")
             .resizable()
             .aspectRatio(1, contentMode: .fit)
-
-      
-          if let id = appEnvironment.lastFlightId,
-             let lastFlight = flightInfo.getFlightById(id) {
-            NavigationLink(
-              destination: FlightDetails(flight: lastFlight),
-              isActive: $showNextFlight
-            ) { }
-          }
           VStack {
             WelcomeAnimation()
               .foregroundColor(.white)
@@ -37,11 +28,13 @@ struct WelcomeView: View {
               SearchFlightsButton(flightInfo: flightInfo)
               AwardsButton()
               TimelineButton(flightInfo: flightInfo)
-              LastViewedButton(
-                flightInfo: flightInfo,
-                appEnvironment: appEnvironment,
-                showNextFlight: $showNextFlight
-              )
+              if let id = appEnvironment.lastFlightId,
+                 let lastFlight = flightInfo.getFlightById(id) {
+                LastViewedButton(lastFlight: lastFlight)
+              } else {
+                Spacer()
+              }
+              
             }.font(.title)
               .foregroundColor(.white)
             .padding()

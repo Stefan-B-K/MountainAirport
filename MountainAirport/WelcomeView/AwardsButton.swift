@@ -2,6 +2,7 @@
 import SwiftUI
 
 struct AwardsButton: View {
+  
   var body: some View {
     NavigationLink(
       destination: AwardsView()

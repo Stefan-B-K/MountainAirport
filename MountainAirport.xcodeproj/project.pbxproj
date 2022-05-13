@@ -33,7 +33,6 @@
 		982FE75C282D238F00FB1D7E /* TimelineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982FE75B282D238F00FB1D7E /* TimelineButton.swift */; };
 		982FE75E282D384400FB1D7E /* GenericTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982FE75D282D384400FB1D7E /* GenericTimeline.swift */; };
 		98D0A24E2819CBB500BED6AD /* HistoryPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D0A24D2819CBB500BED6AD /* HistoryPieChart.swift */; };
-		98D0A250281AAF1300BED6AD /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D0A24F281AAF1300BED6AD /* SwiftUIView.swift */; };
 		98D0A252281AB15400BED6AD /* AwardStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D0A251281AB15400BED6AD /* AwardStars.swift */; };
 		98D0A254281AC9E600BED6AD /* FlightTerminalMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D0A253281AC9E600BED6AD /* FlightTerminalMap.swift */; };
 		98D0A256281AE5B700BED6AD /* DelayBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D0A255281AE5B700BED6AD /* DelayBarChart.swift */; };
@@ -84,7 +83,6 @@
 		982FE75B282D238F00FB1D7E /* TimelineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineButton.swift; sourceTree = "<group>"; };
 		982FE75D282D384400FB1D7E /* GenericTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTimeline.swift; sourceTree = "<group>"; };
 		98D0A24D2819CBB500BED6AD /* HistoryPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPieChart.swift; sourceTree = "<group>"; };
-		98D0A24F281AAF1300BED6AD /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		98D0A251281AB15400BED6AD /* AwardStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardStars.swift; sourceTree = "<group>"; };
 		98D0A253281AC9E600BED6AD /* FlightTerminalMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightTerminalMap.swift; sourceTree = "<group>"; };
 		98D0A255281AE5B700BED6AD /* DelayBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelayBarChart.swift; sourceTree = "<group>"; };
@@ -170,7 +168,6 @@
 				980E8FDB28114B6B006FDBFD /* FlightRow.swift */,
 				980E8FCE281149F7006FDBFD /* FlightStatusIcon.swift */,
 				98E6F4202811A05B00A70ABE /* HighlightActionView.swift */,
-				98D0A24F281AAF1300BED6AD /* SwiftUIView.swift */,
 			);
 			path = FlightStatusBoardView;
 			sourceTree = "<group>";
@@ -374,7 +371,6 @@
 				9800987E28182B4100CA5049 /* AppEnvironment.swift in Sources */,
 				980E8FE52811717E006FDBFD /* DateFormatters.swift in Sources */,
 				980098842818300800CA5049 /* SearchFlightsButton.swift in Sources */,
-				98D0A250281AAF1300BED6AD /* SwiftUIView.swift in Sources */,
 				980E8FDD28114B6B006FDBFD /* FlightRow.swift in Sources */,
 				98DDF65328101A1D008373A7 /* SavedFlights.swift in Sources */,
 				982FE75C282D238F00FB1D7E /* TimelineButton.swift in Sources */,
